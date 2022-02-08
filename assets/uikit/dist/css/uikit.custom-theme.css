@@ -702,7 +702,7 @@ a.uk-link-reset,
   margin-left: calc(5px + 0.3em);
 }
 .heading-large-color {
-  color: #BAABDA;
+  color: #D77FA1;
 }
 .heading-normal-color {
   color: #323233;
@@ -2789,7 +2789,7 @@ select.uk-form-width-xsmall {
  * Note: Header and Footer are only implemented for the default style
  */
 .uk-card-default {
-  background-color: #BAABDA;
+  background-color: #e4dcf5;
   color: #666;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2797,7 +2797,7 @@ select.uk-form-width-xsmall {
   color: #333;
 }
 .uk-card-default.uk-card-hover:hover {
-  background-color: #ab99d2;
+  background-color: #d5c8ef;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 .uk-card-default .uk-card-header {
