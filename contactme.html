@@ -40,8 +40,47 @@
     </header>
     <main>
         <!--Intro-->
-        <section class="uk section">
-            
+        <section class="uk section uk-section-large cs-padding" uk-section>
+            <h2 class=" uk-text-center uk-margin-medium heading-color uk-text-bold">Contact Me</h2>
+            <div class="uk-container uk-flex uk-flex-center uk-padding-large ">                
+                <form class="uk-form-horizontal uk-margin-large">
+
+                    <div class="uk-margin">
+                        <label class="uk-form-label uk-text-bold" for="name">Name:</label>
+                        <div class="uk-form-controls uk-inline">
+                            <span class="uk-form-icon" uk-icon="icon: user"></span>
+                            <input class="uk-input" id="name" type="text" placeholder="Your Name">
+                        </div>
+                    </div>
+                
+                    <div class="uk-margin">
+                        <label class="uk-form-label uk-text-bold" for="surname">Surname:</label>
+                        <div class="uk-form-controls uk-inline">
+                            <span class="uk-form-icon" uk-icon="icon: user"></span>
+                            <input class="uk-input" id="surname" type="text" placeholder="Your Surname">
+                        </div>
+                    </div>
+                
+                    <div class="uk-margin">
+                        <div class="uk-form-label uk-text-bold" for="eposta">E-mail Adress:</div>
+                        <div class="uk-form-controls uk-inline">
+                            <span class="uk-form-icon" uk-icon="icon: mail"></span>
+                            <input class="uk-input" id="eposta" type="mail" placeholder="Your E-mail Adress">
+                        </div>
+                    </div>
+                    
+                    <div class="uk-margin">
+                        <div class="uk-form-label uk-text-bold" for="intro">About The Work:</div>
+                        <div class="uk-form-controls uk-inline">
+                            <span class="uk-form-icon " uk-icon="icon: pencil"></span>
+                            <textarea class="uk-input" id="intro" type="textarea" placeholder="About The Work Text"></textarea>
+                        </div>
+                    </div>
+                    <div class="uk-padding-large uk-flex uk-flex-center">
+                         <a class="uk-button uk-button-default uk-text-bold uk-flex uk-flex-center" href="#">Submit</a>
+                    </div>
+                </form>               
+            </div>
         </section>
     </main>
     <footer></footer>

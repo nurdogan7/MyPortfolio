@@ -238,7 +238,7 @@ h6,
   margin: 0 0 20px 0;
   font-family: "PT Sans", "Source Serif 4", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: normal;
-  color: #333;
+  color: #D77FA1;
   text-transform: none;
 }
 /* Add margin if adjacent element */
@@ -1529,7 +1529,7 @@ button.uk-icon:not(:disabled) {
   border: 0 none;
   /* 4 */
   padding: 0 10px;
-  background: #f8f8f8;
+  background: #D6E5FA;
   color: #666;
   border: 1px solid #BAABDA;
   transition: 0.2s ease-in-out;
@@ -1588,16 +1588,16 @@ button.uk-icon:not(:disabled) {
  * Placeholder
  */
 .uk-input::-ms-input-placeholder {
-  color: #999 !important;
+  color: #D77FA1 !important;
 }
 .uk-input::placeholder {
-  color: #999;
+  color: #D77FA1;
 }
 .uk-textarea::-ms-input-placeholder {
-  color: #999 !important;
+  color: #D77FA1 !important;
 }
 .uk-textarea::placeholder {
-  color: #999;
+  color: #D77FA1;
 }
 /* Style modifier (`uk-input`, `uk-select` and `uk-textarea`)
  ========================================================================== */
@@ -1902,8 +1902,8 @@ select.uk-form-width-xsmall {
 /* Label
  ========================================================================== */
 .uk-form-label {
-  color: #333;
-  font-size: 0.875rem;
+  color: #D77FA1;
+  font-size: 1.15rem;
 }
 /* Layout
  ========================================================================== */
@@ -1961,7 +1961,7 @@ select.uk-form-width-xsmall {
   justify-content: center;
   align-items: center;
   /* 4 */
-  color: #999;
+  color: #D77FA1;
 }
 /*
  * Required for `a`.
@@ -2415,7 +2415,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #D6E5FA;
+  background: #1e87f0;
 }
 /*
  * Secondary
@@ -2429,13 +2429,8 @@ select.uk-form-width-xsmall {
  * Reserved modifier to make a section overlap another section with an border image
  * Implemented by the theme
  */
-.cs-test {
-  color: blue;
-}
-@media (min-width: 960px) {
-  .cs-test {
-    color: red;
-  }
+.cs-padding {
+  padding-top: 20px;
 }
 /* ========================================================================
    Component: Container
