@@ -57,6 +57,30 @@
     .cs-padding{
         padding-top: 20px;
     }
-   
+    .gradient{
+    background: url(../../../images/colorful-gradient.jpg);
+    background-size: 600% 600%;
+    animation: gradient 6s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-button{
+    background: url(../../../images/colorful-gradient.jpg);
+    background-size: 600% 600%;
+    animation: gradient 6s linear infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%
+    }
+}
 }
 
